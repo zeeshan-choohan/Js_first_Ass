@@ -89,17 +89,54 @@
 // console.table("<60 your Grade is F")
 // }
 // else if(userInp > 0 && userInp < 70 && userInp < 100){
-//     console.table("<70 your Grade is D")
+//     console.log("<70 your Grade is D")
 // }
 // else if(userInp > 0 && userInp < 80 && userInp < 100){
-//     console.table("<80 your Grade is C")
+//     console.log("<80 your Grade is C")
 // }
 // else if(userInp > 0 && userInp < 90 && userInp < 100){
-//     console.table("<90 your Grade is B")
+//     console.log("<90 your Grade is B")
 // }
 // else if(userInp > 0 && userInp < 100){
-//     console.table("<100 your Grade is A")
+//     console.log("<100 your Grade is A")
 // }
+// else if(userInp === 0 || userInp < 0){
+//     console.log("You entered 0 or less than 0 or Invalid number")
+// }
+// else{
+//     console.log("You entered invalid number greater than 100")
+// }
+
+// TASK 06
+
+// for(let i =1 ; i < 101 ; i++){
+//     if(i%3 == 0){
+//         console.log("Fizz")
+//     }
+//     else if(i%5 ==0){
+//         console.log("Buzz")
+//     }
+//   else if(i%3 && i%5 ==0){
+//         console.log("FizzBuzz")
+//     }
+  
+// }
+
+// TASK 07
+
+// let n = 5;
+// let star = "";
+// for (let i = 1; i <= n; i++) {
+//   for (let j = 1; j <= n - i; j++) {
+//     star += " ";
+//   }
+//   for (let k = 0; k < 2 * i - 1; k++) {
+//     star += "*";
+//   }
+//   star += "\n";
+// }
+// console.log(star);
+
 
 
 
